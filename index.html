@@ -1,0 +1,107 @@
+<html>
+<!--html contact form-->    
+<div style="border-style: solid; margin-left: 35%; margin-right: 35%" align="center">
+<br />
+<h1>Contact Form</h1>
+<br>
+<form id="contact_form" action="write_contacts.php" method="POST" enctype="multipart/form-data">
+<div class="row">
+<!--first name text box-->
+<label for="firstname">First name:</label>
+<input id="name" class="input" name="fname" id="fname" type="text" value="" size="30" required/><br />
+</div> <br />
+<div class="row">
+<!--last name text box-->
+<label for="lastname">Last Name:</label>
+<input id="name" class="input" name="lname" id="lname" type="text" value="" size="30" required/><br />
+</div><br />
+<div class="row">
+<!--address text box-->
+<label for="Address">Address:</label>
+<input id="name" class="input" name="Address" id="Address type="text" value="" size="30" required/><br />
+</div><br />
+<div class="row">
+<!--state drop down box-->
+<label for="Address">State:</label>
+<select name="state" id="state" required>
+<option value="Alabama">Alabama</option>
+<option value="Alaska">Alaska</option>
+<option value="Arizona">Arizona</option>
+<option value="Arkansas">Arkansas</option>
+<option value="California">California</option>
+<option value="Colorado">Colorado</option>
+<option value="Connecticut">Connecticut</option>
+<option value="Delaware">Delaware</option>
+<option value="Florida">Florida</option>
+<option value="Georgia">Georgia</option>
+<option value="Hawaii">Hawaii</option>
+<option value="Idaho">Idaho</option>
+<option value="Illinois">Illinois</option>
+<option value="Indiana">Indiana</option>
+<option value="Iowa">Iowa</option>
+<option value="Kansas">Kansas</option>
+<option value="Kentucky">Kentucky</option>
+<option value="Louisiana">Louisiana</option>
+<option value="Maine">Maine</option>
+<option value="Maryland">Maryland</option>
+<option value="Massachusetts">Massachusetts</option>
+<option value="Michigan">Michigan</option>
+<option value="Minnesota">Minnesota</option>
+<option value="Mississippi">Mississippi</option>
+<option value="Missouri">Missouri</option>
+<option value="Montana">Montana</option>
+<option value="Nebraska">Nebraska</option>
+<option value="Nevada">Nevada</option>
+<option value="New Hampshire">New Hampshire</option>
+<option value="New Jersey">New Jersey</option>
+<option value="New Mexico">New Mexico</option>
+<option value="New York">New York</option>
+<option value="North Carolina">North Carolina</option>
+<option value="North Dakota">North Dakota</option>
+<option value="Ohio">Ohio</option>
+<option value="Oklahoma">Oklahoma</option>
+<option value="Oregon">Oregon</option>
+<option value="Pennsylvania">Pennsylvania</option>
+<option value="Rhode Island">Rhode Island</option>
+<option value="South Carolina">South Carolina</option>
+<option value="South Dakota">South Dakota</option>
+<option value="Tennessee">Tennessee</option>
+<option value="Texas">Texas</option>
+<option value="Utah">Utah</option>
+<option value="Vermont">Vermont</option>
+<option value="Virginia">Virginia</option>
+<option value="Washington">Washington</option>
+<option value="West Virginia">West Virginia</option>
+<option value="Wisconsin">Wisconsin</option>
+<option value="Wyoming">Wyoming</option>
+</select>
+</div><br />
+<div class="row">
+<!--zip code text box-->
+<label for="zip">Zip:</label>
+<input id="name" class="input" name="zip" id="zip" type="text" value="" size="30" required/><br />
+</div><br />
+<div class="row">
+<!--phone number text box-->
+<label for="Telephone">Telephone:</label>
+<input id="Telephone" class="input" name="Telephone" type="text" value="" size="30" required/><br />
+</div><br />
+<div class="row">
+<!--email text box-->
+<label for="email">Email:</label>
+<input id="email" class="input" name="email" type="text" value="" size="30" required/><br />
+</div><br />
+<div class="row">
+<!--buttons for reset, store to database and file-->
+<input id="reset_button" type="reset" value="Reset" />
+<input id="submit_button" type="submit" value="Store to database" disabled />
+<input id="submit_button" type="submit" value="Store to file" />
+<div>
+<div align="center">
+<a href="#">View Contacts in Database</a><br>
+<!--link to already filed contacts stored-->
+<a href="view_contacts.php">View Contacts in file</a><br>
+</div>
+</form>
+<div>
+<html>
